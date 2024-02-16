@@ -39,6 +39,13 @@ public class SumPossible {
     }
 
     public static void main(String[] args) {
+
         System.out.println(isSumPossible(5, Arrays.asList(1, 2, 3)));
+        System.out.println(isSumPossible(8, List.of(5, 12, 4)));
+        System.out.println(isSumPossible(15, List.of(6, 2, 10, 19)));
+        System.out.println(isSumPossible(103, List.of(6, 20, 1)));
+        System.out.println(isSumPossible(271, List.of(10, 8, 265, 24)));
+        System.out.println(isSumPossible(2017, List.of(4, 2, 10)));
+
     }
 }

@@ -28,6 +28,13 @@ public class Tribonacci {
     }
 
     public static void main(String[] args) {
-        System.out.println(tribonacci(10));
+        System.out.println(tribonacci(1));
+        System.out.println(tribonacci(2));
+        System.out.println(tribonacci(5));
+        System.out.println(tribonacci(7));
+        System.out.println(tribonacci(14));
+        System.out.println(tribonacci(20));
+        System.out.println(tribonacci(37));
+
     }
 }

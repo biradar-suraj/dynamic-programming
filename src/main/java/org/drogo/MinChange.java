@@ -47,6 +47,12 @@ public class MinChange {
 
     public static void main(String[] args) {
         System.out.println(minimumNumberOfCoins(5, Arrays.asList(1, 2, 3)));
+        System.out.println(minimumNumberOfCoins(8, List.of(1, 5, 4, 12)));
+        System.out.println(minimumNumberOfCoins(13, List.of(1, 9, 5, 14, 30)));
+        System.out.println(minimumNumberOfCoins(102, List.of(1, 5, 10, 25)));
+        System.out.println(minimumNumberOfCoins(200, List.of(1, 5, 10, 25)));
+        System.out.println(minimumNumberOfCoins(2017, List.of(4, 2, 10)));
+        System.out.println(minimumNumberOfCoins(23, List.of(2, 5, 7)));
 
     }
 }
