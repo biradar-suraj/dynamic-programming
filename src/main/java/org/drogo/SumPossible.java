@@ -46,6 +46,7 @@ public class SumPossible {
         System.out.println(isSumPossible(103, List.of(6, 20, 1)));
         System.out.println(isSumPossible(271, List.of(10, 8, 265, 24)));
         System.out.println(isSumPossible(2017, List.of(4, 2, 10)));
+        System.out.println(isSumPossible(7, List.of(1, 2, 3)));
 
     }
 }
